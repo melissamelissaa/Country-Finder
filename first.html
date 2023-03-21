@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+      <meta charset="UTF-8">
+</head>
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel = "stylesheet" href="./first.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Libre+Baskerville:ital@1&display=swap');
+        </style>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+    <video autoplay muted loop id="myVideo">
+        <source src="earth-video.mp4" type="video/mp4">
+    </video>
+<div class="container">
+   <div id = "main-div">
+    <div id= "input-div">
+   <input id= "input" type = "text" placeholder="Enter country">
+   <button id= "btn">Search!</button>
+</div>
+<select id="language-change">
+    <!-- <option disabled selected>Select your language</option> -->
+    <option default>Georgian</option>
+    <option>English</option>
+   </select>
+   <img>
+   <p class = "name"></p>
+   <p class = "capital"></p>
+   <p class = "region"></p>
+   <p class = "population"></p>
+</div>
+</div>
+</body>
+<script src = "./first.js"></script>
+</html>
